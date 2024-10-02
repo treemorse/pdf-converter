@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express();
 const port = 8080;
-const API_KEY = '11c79ee2947ad27c62dc5aa4655a838a';
+const API_KEY = '93f2c4ebbc84b2f2254dbf813fca9504 ';
 const OUTPUT_DIR = 'output_files/';
 const CONVERSION_CATEGORY = 'document';
 const CONVERSION_TARGET = 'docx';
