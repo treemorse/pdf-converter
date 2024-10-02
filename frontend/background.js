@@ -11,7 +11,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const formData = new FormData();
     formData.append('file', file, message.filename);
 
-    fetch('http://localhost:8080/convert', {
+    fetch('http://89.169.165.115:8080/convert', {
       method: 'POST',
       body: formData
     })
