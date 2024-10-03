@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 const app = express();
-const port = 8080;
+const port = 80;
 const API_KEY = '93f2c4ebbc84b2f2254dbf813fca9504 ';
 const OUTPUT_DIR = 'output_files/';
 const CONVERSION_CATEGORY = 'document';
